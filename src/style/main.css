@@ -1,0 +1,48 @@
+@import "@a1rth/css-normalize";
+@import "./var.css";
+@import "./fonts.css";
+
+body {
+  font-family: "Unbounded", sans-serif;
+  font-weight: 400;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-text);
+  gap: 0.5rem;
+}
+
+.line {
+  display: flex;
+  background: var(--color-text);
+  gap: 0.5rem;
+}
+
+.tic {
+  width: 10rem;
+  height: 10rem;
+  background: var(--color-bg);
+}
+
+#btns {
+  display: flex;
+  gap: 2rem;
+}
+
+button {
+  padding: 1rem 2rem;
+  background: var(--color-accent);
+  border-radius: 10px;
+  border: 0;
+}
